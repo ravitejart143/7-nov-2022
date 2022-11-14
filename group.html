@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<input id="user"/>
+	<h1 id="text" class="group">events in javascript</h1>
+	<p class="group">i hate my self</p>
+	<h2 class="group">all the best</h2>
+	<p class="group">all is well</p>
+	<h2 class="group">thank you so munch</h2>
+	<script type="text/javascript">
+		var group=document.getElementByClassName("group")
+		console.log(group)
+		var list=document.getElementByTagname("list")
+		console.log(list)
+		for(var i=0;i<group.length;i++){
+			console.log(group[i].innerHTML)
+		}
+	</script>
+</body>
+</html>
